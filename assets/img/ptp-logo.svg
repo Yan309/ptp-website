@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="14 4 222 162" role="img" aria-label="PTP logo">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6dc8e"/>
+      <stop offset=".45" stop-color="#d4a94c"/>
+      <stop offset="1" stop-color="#9c7425"/>
+    </linearGradient>
+    <linearGradient id="s" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8a8a8a"/>
+      <stop offset="1" stop-color="#3a3a3a"/>
+    </linearGradient>
+  </defs>
+  <!-- skyline -->
+  <rect x="71" y="58" width="11" height="22" fill="url(#g)"/>
+  <rect x="85" y="46" width="11" height="34" fill="url(#s)"/>
+  <rect x="99" y="34" width="11" height="46" fill="url(#s)"/>
+  <polygon points="113,26 127,10 127,80 113,80" fill="url(#g)"/>
+  <rect x="130" y="34" width="11" height="46" fill="url(#s)"/>
+  <rect x="144" y="46" width="11" height="34" fill="url(#g)"/>
+  <rect x="158" y="58" width="11" height="22" fill="url(#g)"/>
+  <!-- P T P -->
+  <path fill="url(#g)" fill-rule="evenodd" d="M22,86 H62 A27,27 0 0 1 62,140 H40 V160 H22 Z M40,103 H60 A10,10 0 0 1 60,123 H40 Z"/>
+  <path fill="url(#g)" d="M96,86 H156 V104 H135 V160 H117 V104 H96 Z"/>
+  <path fill="url(#g)" fill-rule="evenodd" d="M162,86 H202 A27,27 0 0 1 202,140 H180 V160 H162 Z M180,103 H200 A10,10 0 0 1 200,123 H180 Z"/>
+</svg>
