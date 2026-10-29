@@ -1,0 +1,12 @@
+.git
+.git/**
+.wrangler
+.wrangler/**
+node_modules
+wrangler.jsonc
+.assetsignore
+.gitignore
+.nojekyll
+README.md
+media
+logos
