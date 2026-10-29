@@ -132,3 +132,6 @@ a:hover .arr,button:hover .arr{transform:translateX(4px)}
 [hidden]{display:none!important}
 html{scroll-behavior:smooth}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@media (max-width:600px){.brand-text{font-size:10.5px!important;letter-spacing:.03em!important}}
+@media (max-width:370px){.brand-text{font-size:9.5px!important}}
+@media (max-width:600px){.nav-inner{padding:0 16px!important;gap:10px!important}.brand-mark{height:34px!important}.menu-btn{padding:0 12px!important}}
