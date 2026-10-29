@@ -23,9 +23,17 @@ Open `index.html` in a browser.
   (or change the `src` in `index.html`).
 - The WhatsApp number used by the quote form is at the top of `js/main.js`.
 
-## Hosting on GitHub Pages
-1. Create a new public repository on GitHub (for example `ptp-website`).
-2. Upload everything in this folder **except** the `media/` and `logos/` source folders.
-3. In the repository go to **Settings → Pages**, choose **Deploy from a branch**,
-   branch `main`, folder `/ (root)`, and save.
-4. The site goes live at `https://<your-username>.github.io/ptp-website/` within a minute or two.
+## Hosting
+Live at **https://ptp-pk.com**, hosted on Cloudflare (free plan).
+Cloudflare is connected to this GitHub repository and republishes the site
+automatically about a minute after every `git push` to `main`.
+
+The domain is registered at GoDaddy; its nameservers point to Cloudflare,
+which manages DNS and HTTPS for ptp-pk.com and www.ptp-pk.com.
+
+## Publishing a change
+```
+git add -A
+git commit -m "Describe the change"
+git push
+```
